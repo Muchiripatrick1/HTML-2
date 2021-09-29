@@ -19,7 +19,7 @@ body {
 
 header {
   height: 50px;
-  background-color: rgb(51, 50, 50);
+  background-color: #2B2B2B;
   padding-top: 5px;
 }
 
@@ -51,11 +51,15 @@ header ul:after {}
   /* Implementation of the main image (image of the white "Achieve" character)*/
   position: relative;
   top: 5rem;
-  width: 250px;
+  width: 13%;
 }
 
 .about {
+  font-size: 0.8rem;
   /* Implementation of the About Achieve part*/
+}
+.aboutachieve{
+  font-size: 1.5rem;
 }
 
 /* from here */
@@ -96,10 +100,4 @@ footer {
   text-align: center;
   padding: 15px;
   font-size: 0.8rem;
-}
-.aboutachieve{
-  font-size: 1.5 rem;
-}
-.sectionachieve{
-  font-size: 30 rem;
 }
